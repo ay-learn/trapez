@@ -9,7 +9,7 @@ double fct(double x) { return (sqrt(x)); }
 double trapezes_adapt(double a, double b, double eps, int n);
 
 int main() {
-  double a, b, n, eps, solution;
+  double a=0, b=0, n=0, eps=0, solution=0;
   n = 100000;
   a = 1;
   b = 1.3;
@@ -25,7 +25,7 @@ int main() {
 
 double trapezes_adapt(double a, double b, double eps, int n) {
   int i, j;
-  double h, sum, err, x, intergral;
+  double h=0, sum=0, err=0, x=0, intergral=0;
 
   n = 1;
   h = b - a;
